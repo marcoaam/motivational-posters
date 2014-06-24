@@ -17,6 +17,9 @@ $(document).on('input', '#text', function() {
 $(document).on('change', '#left', function() {
 	$("#caption").css("left", $(this).val() + 'px');
 });
+$(document).on('change', '#top', function() {
+	$("#caption").css("top", $(this).val() + 'px');
+});
 $(document).on('change', '#width', function() {
 	$("#caption").css("width", $(this).val() + 'px');
 });
